@@ -91,7 +91,7 @@ export default function Navbar({ onOpenPortal }) {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rohankapoor0/"
               target="_blank"
               rel="noreferrer"
               title="LinkedIn Profile"
@@ -145,7 +145,7 @@ export default function Navbar({ onOpenPortal }) {
               Email Rohan
             </a>
             <a
-              href="https://www.linkedin.com/in/rohankapoor2460"
+              href="https://www.linkedin.com/in/rohankapoor0/"
               target="_blank"
               rel="noreferrer"
               className="flex-1 py-2 text-center text-xs font-medium rounded-lg bg-white/5 border border-white/10 text-slate-300"

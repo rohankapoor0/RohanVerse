@@ -75,7 +75,7 @@ export default function ContactSection() {
                 rel="noreferrer"
                 className="text-base sm:text-lg font-mono text-neutral-200 mt-1 font-semibold hover:text-amber-300 transition-colors flex items-center gap-2"
               >
-                <span>linkedin.com/in/rohankapoor2460</span>
+                <span>linkedin.com/in/rohankapoor0</span>
                 <span className="text-xs text-amber-400 font-normal">↗</span>
               </a>
             </div>

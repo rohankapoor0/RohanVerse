@@ -5,7 +5,7 @@ export const personalInfo = {
   cgpa: "9.14 CGPA (Avg across 4 Semesters)",
   location: "Mumbai, India",
   email: "rohankapoor2460@gmail.com",
-  linkedin: "https://www.linkedin.com/in/rohankapoor2460",
+  linkedin: "https://www.linkedin.com/in/rohankapoor0/",
   youtube: "10,000+ Subscribers",
   tagline: "Engineering autonomous agentic workflows, scalable ML architectures, and fault-tolerant distributed systems.",
   overview: "Third-Year B.Tech Computer Science (AI & ML) student at Atlas SkillTech University with hands-on enterprise experience in developing autonomous AI agents, recommendation engines, business intelligence platforms, and scam-detection web security. Proven track record in model performance profiling, LLM scaling, and distributed architecture. National-level double Cyber Olympiad Gold Medalist.",

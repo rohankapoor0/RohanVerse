@@ -48,7 +48,7 @@ export default function Footer() {
             </a>
 
             <a
-              href={personalInfo.linkedin || "https://www.linkedin.com/in/rohankapoor2460"}
+              href={personalInfo.linkedin || "https://www.linkedin.com/in/rohankapoor0/"}
               target="_blank"
               rel="noreferrer"
               className="px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 text-slate-200 font-semibold text-sm border border-white/10 hover:border-white/20 active:scale-95 transition-all flex items-center gap-2"
@@ -80,7 +80,7 @@ export default function Footer() {
               <Mail className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com"
+              href={personalInfo.linkedin || "https://www.linkedin.com/in/rohankapoor0/"}
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 rounded-full bg-white/5 hover:bg-indigo-500/10 border border-white/10 hover:border-indigo-500/40 text-slate-400 hover:text-indigo-400 flex items-center justify-center transition-colors"

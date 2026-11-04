@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.011em;
+    overflow-x: hidden;
+  }
+}
+
+/* Minimal Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24;
+}
+
+/* Crisp Luminous Black Hole Gold & Amber Outlines for Information Panels */
+.kpi-card {
+  background-color: #000000;
+  border: 1px solid rgba(251, 191, 36, 0.45);
+  box-shadow: 
+    0 0 0 1px rgba(254, 243, 199, 0.15),
+    0 4px 20px -2px rgba(245, 158, 11, 0.2),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.kpi-card:hover {
+  border-color: rgba(254, 240, 138, 0.9);
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.4),
+    0 0 30px 4px rgba(245, 158, 11, 0.45),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Crisp White-Gold Outline Variant */
+.luminous-box {
+  background-color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 
+    0 0 15px -3px rgba(251, 191, 36, 0.25),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.luminous-box:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 
+    0 0 25px 2px rgba(251, 191, 36, 0.4),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+}

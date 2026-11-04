@@ -19,7 +19,7 @@ export default {
         }
       },
       fontFamily: {
-        display: ['Syne', 'Inter', '-apple-system', 'sans-serif'],
+        display: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
         sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },

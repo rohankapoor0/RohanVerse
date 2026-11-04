@@ -107,7 +107,7 @@ export default function HomeSection({ onNavigate }) {
               </div>
 
               {/* Bold Distinctive Display Headline */}
-              <h1 className="font-display font-black text-5xl sm:text-7xl lg:text-8xl text-white tracking-tightest leading-[0.92] uppercase select-none drop-shadow-2xl">
+              <h1 className="font-sans font-black text-4xl sm:text-6xl lg:text-7xl text-white tracking-tight leading-[0.95] uppercase select-none drop-shadow-2xl">
                 ROHAN<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-amber-100 to-amber-300">
                   KAPOOR
@@ -157,7 +157,7 @@ export default function HomeSection({ onNavigate }) {
 
                   <div>
                     <div className="flex items-center gap-2">
-                      <h3 className="font-display font-extrabold text-xl sm:text-2xl text-white tracking-tight">
+                      <h3 className="font-sans font-extrabold text-xl sm:text-2xl text-white tracking-tight">
                         CLARK
                       </h3>
                       <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-neutral-900 border border-amber-400/40 text-amber-200 font-semibold uppercase tracking-wider">
